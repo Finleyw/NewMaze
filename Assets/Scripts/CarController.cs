@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarController : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        print(rotationAngle);
+       //print(rotationAngle);
     }
 
     // Update is called once per frame
@@ -95,4 +96,6 @@ public class CarController : MonoBehaviour
         carRigidbody2D.velocity=forwardVelocity+rightVelocity*driftFactor;
 
     }
+
+    
 }

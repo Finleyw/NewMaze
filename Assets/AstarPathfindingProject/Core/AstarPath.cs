@@ -433,7 +433,7 @@ public class AstarPath : VersionedMonoBehaviour {
 	/// Note: Not to be confused with graph updates.
 	///
 	/// Used to better support Graph Update Objects called for example in OnPostScan
-	///
+	///path completed
 	/// See: IsAnyGraphUpdateQueued
 	/// See: IsAnyGraphUpdateInProgress
 	/// </summary>
@@ -834,7 +834,7 @@ public class AstarPath : VersionedMonoBehaviour {
 			} else if (path.error) {
 				Debug.LogWarning(debug);
 			} else {
-				Debug.Log(debug);
+				//Debug.Log(debug);
 			}
 		}
 	}
